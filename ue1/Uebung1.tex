@@ -75,7 +75,12 @@ Links: happened-before\\
 Rechts:potential-causality
 
 \subsection{}
-\[e_2  \xrightarrow{p} e_3 \xrightarrow{p} f_3 \xrightarrow{f_4}\]
+\begin{align*}
+e_2  \rightarrow e_3 \rightarrow f_3 \rightarrowf_4\\
+e_2  \xrightarrow{\neg p} e_3 \xrightarrow{p} f_3 \xrightarrow{p} f_4\\
+e_2  \xrightarrow{\neg p} f_3 \xrightarrow{p}f_4\\
+e_2  \xrightarrow{\neg p} f_4\\
+\end{align*}
 
 \todo{Negation}
 \subsection{}
